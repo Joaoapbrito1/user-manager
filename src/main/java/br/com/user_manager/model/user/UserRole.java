@@ -3,8 +3,8 @@ package br.com.user_manager.model.user;
 
 public enum UserRole {
 
-    ADMIN("admin"),
-    USER("user");
+    ROLE_ADMIN("admin"),
+    ROLE_USER("user");
 
     private final String role;
 

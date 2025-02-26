@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application">
+    <envs>
+      <env name="DB_NAME" value="bancox" />
+      <env name="DB_PASSWORD" value="senha123" />
+      <env name="DB_URL" value="jdbc:postgresql://localhost:5432/bancox" />
+      <env name="DB_USER" value="postgres" />
+      <env name="DB_HOST" value="localhost" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="br.com.user_manager.UserManagerApplication" />
+    <module name="user-manager" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -28,7 +28,7 @@ public class User implements UserDetails {
     // Metodo para garantir que apenas usuários com o papel ADMIN tenham ambas as permissões (ROLE_ADMIN e ROLE_USER), enquanto os demais usuários terão apenas ROLE_USER.
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-       if(this.role == UserRole.ADMIN)
+       if(this.role == UserRole.ROLE_ADMIN)
            return List.of(new SimpleGrantedAuthority("ROLE_ADMIN"),
                new SimpleGrantedAuthority("ROLE_USER"));
        else {
